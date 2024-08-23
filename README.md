@@ -25,14 +25,19 @@ Before feeding the data into the machine learning model, it’s important to pre
 Preprocessing steps includes:
 
 *Tokenization:* Splitting the text into individual words or tokens.
-/n*Lowercasing:* Converting all text to lowercase to ensure the uniformity.
-/n*Removing Punctuation:* Eliminating punctuation marks to avoid treating them as words.
-/n*Stopwords Removal:* Removing common words like "and", "the", etc., that do not contribute to the meaning of the text.
+
+*Lowercasing:* Converting all text to lowercase to ensure the uniformity.
+
+*Removing Punctuation:* Eliminating punctuation marks to avoid treating them as words.
+
+*Stopwords Removal:* Removing common words like "and", "the", etc., that do not contribute to the meaning of the text.
 
 
+## Building the Machine Learning Model
+I have utilized the “Term Frequency-Inverse Document Frequency” (TF-IDF) vectorizer to convert the text data into numerical features. Subsequently, I have employed these features to train the model. Specifically, I have utilized a logistic regression model in this instance.
 
-
-
+## Creating the Flask Web Application
+To make our plagiarism detector easily accessible, I have developed a Flask web application. Users can input two text documents into the application and receive a plagiarism score through a user interface.
 
 
 
