@@ -1,5 +1,5 @@
 # Plagiarism-Detector-Web-application-using-NLP-and-Machine-Learning
-Created an End to End NLP and machine learning based project using Python
+Created an End to End NLP and machine learning based project using Python and Flask
 
 
 ![Plagiarism](https://github.com/user-attachments/assets/0d6261ed-0268-4a71-9674-df528b349945)
@@ -16,8 +16,18 @@ There are few available websites which can detect/catch plagiarism. Few of them 
 The first step in developing a plagiarism detector is to obtain a comprehensive dataset. This dataset needs to consist of text documents containing both original and plagiarized content. These datasets can be obtained from online sources like Kaggle, or created by collecting documents manually.
 
 I have already uploaded the dataset to my repository.
+
 Here, I am using a hypothetical dataset that contains pairs of text where each pair includes one original document and one plagiarized version. This dataset will be used to train our machine learning model to differentiate between original and copied content.
 
+## Data Preprocessing
+Before feeding the data into the machine learning model, it’s important to preprocess it. 
+
+Preprocessing steps includes:
+
+Tokenization: Splitting the text into individual words or tokens.
+Lowercasing: Converting all text to lowercase to ensure the uniformity.
+Removing Punctuation: Eliminating punctuation marks to avoid treating them as words.
+*Stopwords Removal:* Removing common words like "and", "the", etc., that do not contribute to the meaning of the text.
 
 
 
