@@ -16,7 +16,7 @@ There are few available websites which can detect/catch plagiarism. Few of them 
 The first step in developing a plagiarism detector is to obtain a comprehensive dataset. This dataset needs to consist of text documents containing both original and plagiarized content. These datasets can be obtained from online sources like Kaggle, or created by collecting documents manually.
 
 I have already uploaded the dataset to my repository.
-The dataset to be used in this project is a modified version of the dataset create by Paul Clough and Mark Stevenson. The complete description of the data generation process is described in their research article (Clough, P., Stevenson, M. Developing a corpus of plagiarised short answers, 2011)
+The dataset used in this project is a modified version of the one create by Paul Clough and Mark Stevenson. The complete description of the data generation process is described in their research article (Clough, P., Stevenson, M. Developing a corpus of plagiarised short answers, 2011)
 
 Here, I am using a hypothetical dataset that contains pairs of text where each pair includes one original document and one plagiarized version. This dataset will be used to train our machine learning model to differentiate between original and copied content.
 
