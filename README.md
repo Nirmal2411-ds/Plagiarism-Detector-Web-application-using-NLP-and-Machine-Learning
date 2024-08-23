@@ -24,10 +24,10 @@ Before feeding the data into the machine learning model, it’s important to pre
 
 Preprocessing steps includes:
 
-Tokenization: Splitting the text into individual words or tokens.
-Lowercasing: Converting all text to lowercase to ensure the uniformity.
-Removing Punctuation: Eliminating punctuation marks to avoid treating them as words.
-*Stopwords Removal:* Removing common words like "and", "the", etc., that do not contribute to the meaning of the text.
+*Tokenization:* Splitting the text into individual words or tokens.
+/n*Lowercasing:* Converting all text to lowercase to ensure the uniformity.
+/n*Removing Punctuation:* Eliminating punctuation marks to avoid treating them as words.
+/n*Stopwords Removal:* Removing common words like "and", "the", etc., that do not contribute to the meaning of the text.
 
 
 
