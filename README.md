@@ -3,6 +3,7 @@ Created an End to End NLP and machine learning based project using Python
 
 
 ![images](https://github.com/user-attachments/assets/29007eb3-c21a-49c8-b387-97805b71736a)
+![Plagiarism](https://github.com/user-attachments/assets/0d6261ed-0268-4a71-9674-df528b349945)
 
 
 ## Introduction
